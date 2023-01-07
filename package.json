@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "My project with tg bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "telegram"
+  ],
+  "author": "Filimonov Dmitry",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.60.0",
+    "path": "^0.12.7",
+    "youtube-dl-exec": "^2.1.11"
+  }
+}
